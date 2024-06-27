@@ -494,8 +494,26 @@ color: var(--first-color-light);
 }
 
 
-/*=============== SERVICES ===============*/
+/*=============== EXPERIENCES===============*/
+.experience{
+  background-color:  var(--container-color);
+}
 
+.experience__container{
+  row-gap:  2rem;
+}
+
+.experience__icon{
+  display: block;
+  color: var(--first-color-light);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.experience__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: .75rem;
+}
 
 /*=============== CONTACT ===============*/
 .contact__container{
@@ -663,7 +681,7 @@ color: var(--first-color-light);
    .home__container,
    .work__container,
    .info__container,
-   .experiences__container,
+   .experience__container,
    .contact__container
    {
     grid-template-columns: 350px;
