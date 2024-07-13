@@ -900,6 +900,16 @@ color: var(--first-color-light);
 
 } 
   
+a:link {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a:visited {
+  color: rgb(237, 237, 134);
+  background-color: transparent;
+  text-decoration: none;
+}
 
 /*Dudu is the best*/
